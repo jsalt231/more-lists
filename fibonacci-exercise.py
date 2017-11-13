@@ -25,10 +25,14 @@ fib = [0, 1]
 # or you could repeat as long as there are too few items in the list (what type of loop is that?)
 # You might want to refresh your memory by creating a simple loop of the type you want first
 
+# Sets my range
 for x in range(48):
+# Adds the last two things for the next thing
     print(fib[-1] + fib[-2])
     fib.append(fib[-1] + fib[-2])
+# Prints the finished list
 print(fib)
+
 
 
 

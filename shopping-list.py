@@ -19,16 +19,21 @@ There is no automated checking on this one
 """
 
 shopping_list = []
+# Establishes my fantastical loop
 while True:
     q1 = input("Would you like to add something to your shopping list: y/n\n")
+# Asks user for input
     if q1 == "y":
         shopping_list.append(input("What would you like to add?\n"))
+# Confirms user's choices
     if q1 == "n":
         print(shopping_list)
         q2 = input("Is this your finalized shopping list? y/n\n")
+# Once we're all good, prints list and breaks
         if q2 == "y":
             print(shopping_list)
             break
+# Allows user to remove items
         if q2 == "n":
             shopping_list.remove(input("What would you like to remove?\n"))
 
