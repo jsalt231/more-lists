@@ -6,8 +6,7 @@ If you're correct, you'll get a message in the terminal saying "Your string_list
 
 # On the line below, create a list named string_list containing 7 strings
 
-
-
+string_list = ["howdy", "neighbor", "how", "are", "you", "doing", "today"]
 
 
 # DON'T EDIT BELOW THIS LINE #
